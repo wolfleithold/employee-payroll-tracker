@@ -1,8 +1,8 @@
-## CSS Portfolio
+## Employee Payroll Tracker
 
 ## Description
 
-A portfolio displaying my current CSS level.
+An employee payroll tracker that will average employee salary and select an employee at random to win a draw.
 
 ## Contributor(s)
 
