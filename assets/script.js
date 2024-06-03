@@ -30,6 +30,17 @@ const collectEmployees = function() {
 
 // Display the average salary
 const displayAverageSalary = function(employeesArray) {
+  let totalSalary = 0;
+  for (let employee of employeesArray) {
+    totalSalary += employee.salary;
+  }
+
+  let averageSalary = totalSalary/employeesArray.length;
+
+  console.log(
+ ("Average Salary: " + averageSalary.toLocaleString("en-US", {style:"currency", currency:"USD"})));
+
+
   // TODO: Calculate and display the average salary
 }
 
